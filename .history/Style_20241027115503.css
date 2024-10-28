@@ -1,0 +1,26 @@
+body{
+    /* background-color: #f0f0f0; */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background: #ecf0f3;
+}
+
+.container{
+    width: 45%;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1),
+                -10px -10px 10px rgba(0, 0, 0, 0.1);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 5px;
+}
